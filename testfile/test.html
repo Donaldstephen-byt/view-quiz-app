@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>view quize</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+
+<body>
+    <div class="app">
+
+       <div class="quizContainer">
+         <div class="form-group" id="comp.science">
+            <fieldset>
+                <label for="cat-select-core">Computer Science Core Fields.</label>
+                <select name="cat-select-core" id="cat-select-core">
+                    <option value="algorithms" id="">Algorithms and Computational Theory</option>
+                    <option value="software-dev">Software Development & Engineering</option>
+                    <option value="ai-ml">Artificial Intelligence (AI) & Machine Learning</option>
+                    <option value="data-science">Data Science & Data Analytics</option>
+                    <option value="graphics">Computer Graphics & Visualization</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <fieldset>
+                <label for="cat-select-info">Information Systems & Management.</label>
+                <select name="cat-select-info" id="cat-select-info">
+                    <option value="erp">Enterprise Resource Planning (ERP)</option>
+                    <option value="bi">Business Intelligence (BI)</option>
+                    <option value="is">Information Systems (IS)</option>
+                    <option value="mis">Management Information Systems (MIS)</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <fieldset>
+                <label for="cat-select-network">Networking & Communication</label>
+                <select name="cat-select-network" id="cat-select-network">
+                    <option value="networks">Computer Networks</option>
+                    <option value="cyber">Cyber Security</option>
+                    <option value="telecom">Telecommunication Systems</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <fieldset>
+                <label for="cat-select-web">Web & Mobile Development</label>
+                <select name="cat-select-web" id="cat-select-web">
+                    <option value="web">Web Development</option>
+                    <option value="mobile">Mobile App Development</option>
+                    <option value="cloud">Cloud Computing</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <fieldset>
+                <label for="cat-select-db">Database Management</label>
+                <select name="cat-select-db" id="cat-select-db">
+                    <option value="dba"> Database Administration (DBA)</option>
+                    <option value="bigdata">Big Data & Distributed Systems</option>
+                    <option value="cloud">Cloud Computing</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <fieldset>
+                <label for="cat-select-emerging">Emerging Technology</label>
+                <select name="cat-select-emerging" id="cat-select-emerging">
+                    <option value="blockchain">Blockchain</option>
+                    <option value="quantum">Quantum Computing</option>
+                </select>
+            </fieldset>
+        </div>
+       </div>
+
+        <div class="information-system" id="display-quiz">
+            <h1>quiz for information systems and technology</h1>
+            <div class="quiz">
+                <button id="start-btn" class="start-btn">Start Quiz</button>
+                <div class="quiz-content" id="quiz-content">
+                    <h2 id="question">question</h2>
+                    <button id="next-btn" class="next-btn">Next</button>
+                    <button id="back-btn" class="back-btn">back</button>
+                    <div id="answer-buttons">
+                        <button class="btn"> answer 1</button>
+                        <button class="btn"> answer 2</button>
+                        <button class="btn"> answer 3</button>
+                        <button class="btn"> answer 4</button>
+                    </div>
+
+
+
+                    <div class="control-button">
+                        <button id="prev-btn" class="next-btn">prev.</button>
+                        <button id="end-btn" class="end-btn">end quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./test.js"></script>
+</body>
+
+</html>
