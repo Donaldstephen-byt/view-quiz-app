@@ -46,7 +46,7 @@ const endButton = document.getElementById("end-btn");
 const prevButton = document.getElementById("prev-btn");
 const backButton = document.getElementById("back-btn");
 
-
+// to be uncommented
 // let currentQuestionIndex = 0;
 // let userAnswers = new Array(questions.length).fill(null);
 
